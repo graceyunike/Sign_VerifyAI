@@ -1,0 +1,10 @@
+{
+  "name": "SignVerify AI",
+  "description": "Enterprise-grade sign language verification training portal featuring explainable AI (XAI) feedback and human-in-the-loop (HITL) expert validation.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

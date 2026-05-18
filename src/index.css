@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display-lg: "Inter", sans-serif;
+  --font-label-md: "Inter", sans-serif;
+  --font-headline-md: "Inter", sans-serif;
+  --font-mono-label: "Inter", sans-serif;
+  --font-headline-lg: "Inter", sans-serif;
+  --font-body-lg: "Inter", sans-serif;
+  --font-body-md: "Inter", sans-serif;
+  --font-body-sm: "Inter", sans-serif;
+
+  --color-on-secondary-fixed: #00201e;
+  --color-on-surface-variant: #42474e;
+  --color-primary-container: #003459;
+  --color-tertiary: #00202d;
+  --color-surface-bright: #f8f9ff;
+  --color-secondary-fixed-dim: #83d4cf;
+  --color-surface-tint: #3a6188;
+  --color-on-error: #ffffff;
+  --color-error: #ba1a1a;
+  --color-outline-variant: #c2c7cf;
+  --color-surface-container-high: #dce9ff;
+  --color-on-tertiary-fixed: #001e2b;
+  --color-tertiary-fixed-dim: #78d1fe;
+  --color-on-error-container: #93000a;
+  --color-surface-variant: #d3e4fe;
+  --color-on-secondary: #ffffff;
+  --color-on-surface: #0b1c30;
+  --color-surface-dim: #cbdbf5;
+  --color-outline: #73777f;
+  --color-background: #f8f9ff;
+  --color-on-primary-fixed: #001d35;
+  --color-primary-fixed-dim: #a4caf7;
+  --color-error-container: #ffdad6;
+  --color-secondary-container: #9ff1eb;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-background: #0b1c30;
+  --color-tertiary-fixed: #c2e8ff;
+  --color-surface: #f8f9ff;
+  --color-surface-container-low: #eff4ff;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #00364a;
+  --color-on-primary: #ffffff;
+  --color-surface-container: #e5eeff;
+  --color-inverse-on-surface: #eaf1ff;
+  --color-inverse-surface: #213145;
+  --color-on-secondary-fixed-variant: #00504d;
+  --color-inverse-primary: #a4caf7;
+  --color-secondary: #006a66;
+  --color-on-primary-container: #779dc8;
+  --color-on-tertiary-container: #45a3ce;
+  --color-primary-fixed: #d0e4ff;
+  --color-surface-container-highest: #d3e4fe;
+  --color-on-primary-fixed-variant: #20496f;
+  --color-secondary-fixed: #9ff1eb;
+  --color-on-secondary-container: #0e706c;
+  --color-primary: #001e37;
+  --color-on-tertiary-fixed-variant: #004d67;
+
+  --radius-DEFAULT: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+
+  --spacing-stack-md: 12px;
+  --spacing-section-gap: 48px;
+  --spacing-stack-lg: 24px;
+  --spacing-container-padding: 24px;
+  --spacing-stack-sm: 4px;
+  --spacing-gutter: 16px;
+  --spacing-base: 8px;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-body-md;
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
